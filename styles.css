@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f9fa;
+}
+.navbar {
+    background-color: #28a745;
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+.nav-link:hover {
+    color: #d4edda !important;
+}
+.container {
+    margin-top: 2rem;
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-primary {
+    background-color: #28a745;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #218838;
+}
+.btn-danger {
+    background-color: #dc3545;
+}
+.home-section {
+    background: url('https://via.placeholder.com/1200x400?text=Productos+Orgánicos') no-repeat center;
+    background-size: cover;
+    color: white;
+    padding: 3rem;
+    border-radius: 10px;
+    text-align: center;
+}
+.home-section h1 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
